@@ -1,0 +1,639 @@
+/* font-family: 'Cinzel', serif;
+font-family: 'Nunito Sans', sans-serif; */
+
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+@media screen and (max-width: 640px) {
+
+.wrapper {
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    overflow: hidden;
+    border-bottom: gray 2px solid;
+}
+
+.open {
+    color: #8b8b8b;
+    font-size: 30px;
+    float: right;
+    margin: 1rem;
+    display: block;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.open:hover {
+    color: black;
+    
+}
+
+.nav {
+    width: 0;
+    overflow-x: hidden;
+    height: 100vh;
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+    font-family: 'Cinzel', serif;
+    display: block;
+    text-align: center;
+}
+
+.nav a {
+    clear: left;
+    color: black;
+    font-size: 2rem;
+    display: block;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav a:not(:first-child):hover {
+    background-color: red;
+    color: white;
+}
+
+.close {
+    color: black;
+    font-size: 30px;
+    float: right;
+    margin-right: 1rem;
+    display: block;
+    cursor: pointer;
+    padding-top: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+    font-size: 1.5rem;
+    
+}
+
+.nav-phoenix {
+    width: 120px;
+    float: left;
+    margin-left: 2rem;
+    padding: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-phoenix:hover {
+    background-color: transparent;
+}
+
+.nav-item {
+    padding: 1rem 0;
+    border-top: 1px solid black;
+}
+
+.nav-item-last {
+    border-bottom: 1px solid black
+}
+
+
+.mobile-hero-img {
+    width: 100%;
+}
+
+.tablet-hero-img {
+    display: none;
+}
+
+.hero {
+    position: relative;
+    color: white;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.hero-text {
+    position: absolute;
+    top: 25%;
+    right: 8%;
+}
+
+.buy-btn {
+    padding: .25rem .5rem;
+    border: white solid 1px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
+.buy-btn:hover {
+    background-color: rgba(255, 255, 255, 0.329);
+    cursor: pointer;
+}
+
+.hero-img {
+    display: none;
+}
+
+.home-books {
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+.book-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.author-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.home-h1 {
+    font-family: 'Cinzel', serif;
+    color: red;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.home-books img {
+    width: 100%;
+}
+
+.about-books {
+    width: 100%;
+    display: block;
+}
+
+.about-books-img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-books img {
+    width: 100%;
+}
+
+.tablet-about-books {
+    display: none;
+}
+
+.learn-btn-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+.learn-btn {
+    padding: .75rem;
+    border: red solid 1px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.learn-btn:hover {
+    background-color: rgba(0, 0, 0, 0.13);
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.footer-icons {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+i {
+    color: white;
+}
+
+.footer-icons i p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+}
+}
+
+@media screen and (min-width: 641px) {
+    
+.wrapper {
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    overflow: hidden;
+    border-bottom: gray 2px solid;
+}
+
+.nav-logo {
+    display: none;
+}
+
+.close {
+    display: none;
+}
+
+.open {
+    display: none;
+}
+
+.nav {
+    display: block;
+    float: right;
+    padding-top: 4rem;
+    padding-right: 1rem;
+}
+
+.nav-item {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+
+.nav-item:hover {
+    color: red;
+}
+
+.nav-phoenix {
+    position: relative;
+    width: 160px;
+    padding: .5rem 2rem;
+}
+
+.hero {
+    width: 100%;
+}
+
+.hero-text {
+    position: absolute;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 2.5rem;
+    top: 15%;
+    right: 10%;
+    text-align: center;
+}
+
+.buy-btn {
+    padding: .5rem 1rem;
+    border: white solid 1px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.margin-0 {
+    margin-top: 0;
+}
+
+.buy-btn:hover {
+    background-color: rgba(255, 255, 255, 0.329);
+    cursor: pointer;
+}
+
+.hero-img-div {
+    width: 100%;
+}
+
+.mobile-hero-img {
+    display: none;
+}
+
+.tablet-hero-img {
+    display: block;
+    width: 100%;
+}
+
+.hero-img {
+    display: none;
+}
+
+.home-books {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+.home-books img {
+    width: 33%;
+    height: 33%;
+}
+
+.home-books-tablet img {
+    width: 100%;
+    height: 100%;
+}
+
+.home-book-img {
+    width: 100rem;
+}
+
+.book-img {
+    width: 75rem;
+    padding: 3rem;
+}
+
+.author-img {
+    width: 200rem;
+    padding: 3rem;
+}
+
+.home-h1 {
+    font-family: 'Cinzel', serif;
+    color: red;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.book-description-btn {
+    padding: 3rem;
+}
+
+.home-books img {
+    width: 100%;
+}
+
+.about-books {
+    width: 100%;
+    display: block;
+}
+
+.about-books-img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.about-books img {
+    width: 33%;
+}
+
+.mobile-about-books {
+    display: none;
+}
+
+.learn-btn-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.learn-btn {
+    padding: .75rem;
+    border: red solid 1px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.learn-btn:hover {
+    background-color: rgba(0, 0, 0, 0.13);
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem 10rem;
+}
+
+.footer-icons {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+i {
+    color: white;
+}
+
+.footer-icons i p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+}
+
+}
+
+@media screen and (min-width: 850px) {
+.hero-text {
+    font-size: 3.25rem;
+    top: 15%;
+}
+}
+
+@media screen and (min-width: 1201px) {
+.nav-phoenix {
+    width: 200px;
+    padding: 0rem 2rem;
+    margin-top: .5rem;
+}
+
+.home-books {
+    align-items: center;
+}
+
+.tablet-hero-img {
+    display: none;
+}
+
+.hero-img {
+    display: block;
+    width: 100%;
+}
+
+.hero-text {
+    position: absolute;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;
+    top: 20%;
+    right: 15%;
+    text-align: center;
+}
+
+.book-img {
+    padding: 5rem;
+}
+
+.book-description-btn {
+    align-self: flex-start;
+    font-size: 1.2rem;
+    padding-top: 5rem;
+    padding-right: 5rem;
+}
+
+.buy-btn {
+    padding: .75rem 1.25rem;
+    border: white solid 1px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.buy-btn:hover {
+    background-color: rgba(255, 255, 255, 0.329);
+}
+
+    footer {
+    padding: 1rem 20rem;
+}
+}
+
+@media screen and (min-width: 1600px) {
+.hero-text {
+    font-size: 5rem;
+    top: 25%;
+
+}
+}
+
+
+
+
+.gallery {
+    padding: 2%;
+}
+
+.slider-for{
+	width: 800px;
+	height: 100%;
+    max-height: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+	border: none;
+	/* border-width: 15px; */
+	border-radius: 10px 10px 0px 0px;
+	box-shadow: 0 5px 3px rgba(3,3,3,.16);	
+	/* opacity: .7;  */
+	-moz-box-shadow: 0 5px 3px rgba(3,3,3,.16); 
+	-webkit-box-shadow: 0 5px 3px rgba(3,3,3,.16);
+}
+img{
+	width: 100%;
+	max-height: 800px;
+}
+.slider-nav{
+	width: 800px;
+	margin: auto;
+	/* padding: 15px 0px 0px 0px; */
+	display: block;
+    opacity: .7; 
+}
+.slider-nav .item {
+	margin: 0;
+	/* border: solid #cbcbcb; */
+	/* border-width: 10px; */
+	/* border-radius: 7px; */
+}
+.slider-nav .slick-track{
+	height: 100%;
+}
+.slick-arrow{
+    position: absolute;
+top: 50%;
+z-index: 50;
+margin-top: -12px;
+}
+.slick-prev{
+left: 0px;
+}
+.slick-next{
+right: 0;
+}
+
+/* #slick .slider_content .slider_items img {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+#slick .arrow_prev {
+    position: absolute;
+    background-color: red;
+    width: 40px;
+} */
+
+
+button.slick-prev.slick-arrow {
+    position: absolute;
+    bottom: 0px;
+    left: -60px;
+    color: black;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 5px;
+    display: inline-block;
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+button.slick-next.slick-arrow {
+    position: absolute;
+    bottom: 0px;
+    right: -60px;
+    color: black;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 5px;
+    display: inline-block;
+    cursor: pointer;
+    opacity: 1;
+}
