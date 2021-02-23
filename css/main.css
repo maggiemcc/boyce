@@ -260,7 +260,7 @@ i {
 .slider-for{
 	width: 90%;
 	height: auto;
-    max-height: auto;
+    max-height: 230px;
 	margin: 0 auto;
 	overflow: hidden;
 	border: none;
