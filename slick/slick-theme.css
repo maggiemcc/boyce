@@ -46,6 +46,24 @@
     /* border: inset; */
 
 }
+
+@media screen and (max-width: 640px) {
+
+    /* Arrows */
+.slick-prev,
+.slick-next
+{
+    width: 30px;
+    height: 60px;
+    border-radius: 30px;
+    outline: invert;
+
+}
+
+}
+
+
+
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
