@@ -258,8 +258,8 @@ i {
 }
 
 .slider-for{
-	width: 95%;
-	height: 215px;
+	width: 90%;
+	height: auto;
     max-height: 230px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -273,7 +273,7 @@ i {
 }
 img{
 	width: 100%;
-	max-height: 230px;
+	max-height: auto;
 }
 .slider-nav{
 	width: 80%;
