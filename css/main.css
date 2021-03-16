@@ -470,7 +470,7 @@ img{
     float: right;
     /* padding-top: 4rem; */
 
-    padding: 3rem 0;
+    padding: 2rem 0;
 
     padding-right: 1rem;
 }
@@ -498,7 +498,7 @@ img{
     position: relative;
     width: 160px;
     /* padding: .5rem 2rem; */
-    padding: 1.5rem 2rem;
+    padding: .6rem 2rem;
 }
 
 .hero {
@@ -807,8 +807,12 @@ img{
 /* @media screen and (max-width: 1399px) { */
 .nav-phoenix {
     width: 200px;
-    padding: 0rem 2rem;
-    margin-top: .5rem;
+    padding: .6rem 2rem;
+    /* margin-top: .5rem; */
+}
+
+.nav {
+    padding: 2.5rem 2rem;
 }
 
 .home-books {
