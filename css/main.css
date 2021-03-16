@@ -91,7 +91,6 @@ html, body {
 .nav-list li {
     display: inline-block;
     font-size: 1.5rem;
-    
 }
 
 .nav-phoenix {
@@ -382,7 +381,7 @@ img{
     float: right;
     /* padding-top: 4rem; */
 
-    padding: 2rem 0;
+    padding: 3rem 0;
 
     padding-right: 1rem;
 }
@@ -390,7 +389,10 @@ img{
 .nav-item {
     color: black;
     text-decoration: none;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+
+    font-size: 1rem;
+
     padding: 0 0.5rem;
     text-transform: uppercase;
 }
@@ -407,7 +409,7 @@ img{
     position: relative;
     width: 160px;
     /* padding: .5rem 2rem; */
-    padding: .5rem 2rem;
+    padding: 1.5rem 2rem;
 }
 
 .hero {
