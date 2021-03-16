@@ -447,13 +447,25 @@ img{
 
 .about-books-img {
     width: 50%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0rem;
+    margin: auto;
+    border: 1px solid red;
+
 }
 
 .about-books img {
     width: 33%;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    /* width: 200px; */
+    /* border: 1px solid red; */
 }
 
 .mobile-about-books {
@@ -510,6 +522,8 @@ i {
 .copyright {
     text-align: center;
 }
+
+
 
 
 /* Gallery */
@@ -655,6 +669,32 @@ img{
 .buy-btn:hover {
     background-color: rgba(255, 255, 255, 0.329);
 }
+
+
+
+.about-books {
+    width: 100%;
+    display: block;
+}
+
+.about-books-img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.about-books img {
+    width: 33%;
+    /* width: 200px; */
+    border: none;
+}
+
+
+
+
+
+
 
     footer {
     padding: 1rem 20rem;
