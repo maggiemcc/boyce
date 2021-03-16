@@ -91,7 +91,7 @@ html, body {
 
 
 /* @media screen and (max-width: 640px) { */
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 650px) {
 
 .wrapper {
     width: 100%;
@@ -443,7 +443,7 @@ img{
 
 
 /* @media screen and (min-width: 641px) { */
-    @media screen and (min-width: 666px) {
+    @media screen and (min-width: 651px) {
     
 .wrapper {
     width: 100%;
