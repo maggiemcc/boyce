@@ -446,21 +446,20 @@ img{
 }
 
 .about-books-img {
-    width: 50%;
+    /* width: 50%; */
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     /* display: flex; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 0rem;
     margin: auto;
-    border: 1px solid red;
 
 }
 
 .about-books img {
-    width: 33%;
+    /* width: 33%; */
     width: 100%;
     height: auto;
     margin: auto;
