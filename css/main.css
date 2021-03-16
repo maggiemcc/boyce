@@ -510,10 +510,13 @@ img{
     color: white;
     font-family: 'Cinzel', serif;
     font-size: 2.5rem;
-    top: 15%;
+    margin: 0;
+    /* top: 30%; */
+    top: 20%;
     right: 10%;
     text-align: center;
 }
+
 
 .buy-btn {
     padding: .5rem 1rem;
@@ -526,6 +529,7 @@ img{
 
 .margin-0 {
     margin-top: 0;
+    margin: 0;
 }
 
 .buy-btn:hover {
@@ -737,7 +741,11 @@ img{
 @media screen and (min-width: 850px) {
 .hero-text {
     font-size: 3.25rem;
-    top: 15%;
+    /* top: 15%; */
+}
+
+.hero-text {
+    top: 25%;
 }
 
 
@@ -821,9 +829,13 @@ img{
     color: white;
     font-family: 'Cinzel', serif;
     font-size: 4rem;
-    top: 20%;
+    /* top: 20%; */
     right: 15%;
     text-align: center;
+}
+
+.hero-text {
+    top: 25%;
 }
 
 .book-img {
@@ -931,10 +943,10 @@ img{
 
 @media screen and (min-width: 1600px) {
 
-.hero-text {
+/* .hero-text {
     font-size: 5rem;
-    top: 25%;
-}
+    top: 35%;
+} */
 
 /* Gallery */
 .gallery {
