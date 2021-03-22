@@ -124,7 +124,7 @@ html, body {
 
 .character {
     display: grid;
-    grid-template-columns: 400px 400px;
+    grid-template-columns: 350px 350px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     margin: 5px auto 5% auto;
