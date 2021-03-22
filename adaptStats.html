@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Boyce</title>
+    <link rel="shortcut icon" href="images/phoenix.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Nunito+Sans:300,400,700&display=swap" rel="stylesheet">
+<!-- Facebook Pixel Code -->
+<!-- <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window,document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js%27');
+   fbq('init', '1844109182399937'); 
+  fbq('track', 'PageView');
+  </script>
+  <noscript>
+   <img height="1" width="1" 
+  src="https://www.facebook.com/tr?id=1844109182399937&ev=PageView
+  &noscript=1"/>
+  </noscript> -->
+  <!-- End Facebook Pixel Code -->
+</head>
+<body>
+  <div class="wrapper">
+    <a href="index.html"><img src="images/jayboycelogo.png" alt="picture of a red phoenix" class="nav-phoenix"></a>
+    <div class="nav" id="nav">
+      <a href="javascript:void(0)" class="close" onclick="closeNav()">X</a>
+      <a href="index.html" class="nav-logo"><img src="images/jayboycelogo.png" class="nav-phoenix" alt="picture of red phoenix"></a>
+      <a href="index.html" class="nav-item">Home</a>
+      <a href="books.html" class="nav-item">Books</a>
+      <a href="stats.html" class="nav-item">Stats</a>
+      <a href="art.html" class="nav-item">Fan Art</a>
+      <a href="about.html" class="nav-item nav-item-last">About</a>
+    </div> <!-- end of nav div -->
+    <span id="open" class="open" onclick="openNav()">&#9776</span>
+  </div> <!-- end of wrapper -->
+  <div class="back">
+      <a href="stats.html"><h4></h5>&#10229; Back</h5></a>
+  </div>
+
+  <h1 class="home-h1">STATS: ADAPT</h1>
+
+<div class="dropdown">
+<select id="chapterlist">
+    <option value="">Select a Chapter</option>
+</select>
+<br>
+
+<h2 class="text" id="inp"> </h2>
+</div>
+
+
+
+<div class="character">
+    <div class="charImg">
+        <img src="icons/fanart.jpg">
+      </div>
+
+      <div id="chapterInfo">
+        <img src="icons/Strength.svg">
+        <label>STRENGTH</label>
+        <h4 id="strength"></h4>
+
+        <img src="icons/Dexterity.svg">
+        <label>DEXTERITY</label>
+        <h4 id="dexterity"></h4>
+
+        <img src="icons/Constitution.svg">
+        <label>CONSTITUTION</label>
+        <h4 id="constitution"></h4>
+
+        <img src="icons/Intelligence 2.svg">
+        <label>INTELLIGENCE</label>
+        <h4 id="intelligence"></h4>
+
+        <img src="icons/Magic.svg">
+        <label>MAGIC</label>
+        <h4 id="magic"></h4>
+
+        <img src="icons/Charisma.svg">
+        <label>CHARISMA</label>
+        <h4 id="charisma"></h4>
+
+        <img src="icons/Luck.svg">
+        <label>LUCK</label>
+        <h4 id="luck"></h4>
+      </div>
+
+      <div class="charName">
+        <h4>Jade Winward (18 yrs)</h4>
+      </div>
+  </div>
+
+
+  <footer>
+    <div class="footer-icons">
+      <a href="https://www.facebook.com/Siphoner" target="_blank"><i class="fab fa-facebook"><p>Facebook</p></i></a>
+      <a href="https://discordapp.com/invite/rKBRvZF" target="_blank"><i class="fab fa-discord"><p>Discord</p></i></a>
+      <a href="https://www.mountaindalepress.com/jay-boyce" target="_blank"><i class="fas fa-book-open"><p>Publisher</p></i></a>
+  </div>
+  <p class="copyright">&copy;Jay Boyce 2020</p>
+  </footer>
+<script src="https://kit.fontawesome.com/82e4275e9f.js" crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+
+<script>
+    var chapterJson = [
+    {
+        'chapter_number': 1, 'display': 'Chapter One',
+
+        "strength": "12.21",
+        "dexterity": "13.11",
+        "constitution": "12.19",
+        "intelligence": "18.31",
+        "magic": "13.76",
+        "charisma": "12.44",
+        "luck": "15.19"
+    },
+
+    {
+        'chapter_number': 16, 'display': 'Chapter Sixteen',
+
+        "strength": "14.17",
+        "dexterity": "14.35",
+        "constitution": "13.64",
+        "intelligence": "18.56",
+        "magic": "15.09",
+        "charisma": "14.27",
+        "luck": "15.76"
+    },
+
+    {
+        'chapter_number': 33, 'display': 'Chapter Thirty-Three',
+
+        "strength": "17.06",
+        "dexterity": "17.57",
+        "constitution": "17.39",
+        "intelligence": "20.72",
+        "magic": "18.52",
+        "charisma": "17.22",
+        "luck": "16.97"
+    },
+
+    {
+        'chapter_number': 46, 'display': 'Chapter Fourty-Six',
+
+        "strength": "18.37",
+        "dexterity": "18.84",
+        "constitution": "18.73",
+        "intelligence": "21.42",
+        "magic": "19.55",
+        "charisma": "18.01",
+        "luck": "17.76"
+    },
+
+];
+
+var select = document.getElementById('chapterlist');
+
+for (var i = 0; i < chapterJson.length; i++) {
+    var option = document.createElement("option");
+    option.value = chapterJson[i]['chapter_number'];
+    option.text = chapterJson[i]['display'];
+    select.appendChild(option);
+}          
+var input = document.getElementById('inp');
+select.onchange = function()
+{
+    for (var i = 0; i < chapterJson.length; i++) {
+        if(chapterJson[i]['chapter_number'] == this.value)
+        {
+            document.querySelector("#inp").textContent = chapterJson[i]['display'];
+            document.querySelector("#strength").textContent = chapterJson[i]['strength'];
+            document.querySelector("#dexterity").textContent = chapterJson[i]['dexterity'];
+            document.querySelector("#constitution").textContent = chapterJson[i]['constitution'];
+            document.querySelector("#intelligence").textContent = chapterJson[i]['intelligence'];
+            document.querySelector("#magic").textContent = chapterJson[i]['magic'];
+            document.querySelector("#charisma").textContent = chapterJson[i]['charisma'];
+            document.querySelector("#luck").textContent = chapterJson[i]['luck'];
+
+        }
+        if(this.value == '')
+        {
+            input.value = this.value;
+        }
+    }
+    
+};
+</script>
+
+</body>
+</html>
