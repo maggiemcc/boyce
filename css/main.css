@@ -130,7 +130,7 @@ html, body {
     grid-template-columns: 350px 350px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    margin: 5px auto 5% auto;
+    margin: .5rem auto .8rem auto;
     justify-content: center;
 }
 
@@ -167,7 +167,10 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
 
 
 .moreStats {
-    margin: 2rem auto;
+    margin: 1rem auto;
+}
+.moreStats h2 {
+    margin: 0;
 }
 
 .abilities{
@@ -224,11 +227,11 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
   }
 
  
- 
-
 
 
   .abilities tr {width: 233px;}
+
+
 
 
 
