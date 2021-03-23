@@ -211,162 +211,394 @@
 <script>
     var chapterJson = [
     {
-        'chapter_number': 1, 'display': 'Chapter One',
+        chapter_number: 1, display: 'Chapter One',
+        strength: '7.94',
+        dexterity: '8.23',
+        constitution: '7.82',
+        intelligence: '15.56',
+        magic: '11.22',
+        charisma: '8.98',
+        luck: '13.45',
 
-        'strength': '7.94',
-        'dexterity': '8.23',
-        'constitution': '7.82',
-        'intelligence': '15.56',
-        'magic': '11.22',
-        'charisma': '8.98',
-        'luck': '13.45',
+        appraisal: {
+          level: "Novice",
+          percentage: "0%",
+        },
+        athletics: {
+          level: "Novice",
+          percentage: "0%",
+        },
+        bluff: {
+          level: "Novice",
+          percentage: "0%",
+        },
+        diplomacy: {
+          level: "Novice",
+          percentage: "0%",
+        },
+        heal: {
+          level: "Novice",
+          percentage: "0%",
+        },
+        insight: {
+          level: "Novice",
+          percentage: "0%",
+        },
+        math: {
+          level: "Novice",
+          percentage: "0%",
+        },
+        nav: {
+          level: "Novice",
+          percentage: "0%",
+        },
+        percept: {
+          level: "Novice",
+          percentage: "0%",
+        },
+        sense: {
+          level: "Novice",
+          percentage: "0%",
+        },
+        walk: {
+          level: "Novice",
+          percentage: "0%",
+        },
+        wind: {
+          level: "Novice",
+          percentage: "0%",
+        },
 
-        'appraisalL': 'Novice',
-        'appraisalP': '0%',
-        'athleticsL': 'Novice',
-        'athleticsP': '0%',
-        'bluffL': 'Novice',
-        'bluffP': '0%',
-        'diplomacyL': 'Novice',
-        'diplomacyP': '0%',
-        'healL': 'Novice',
-        'healP': '0%',
-        'insightL': 'Novice',
-        'insightP': '0%',
-        'mathL': 'Novice',
-        'mathP': '0%',
-        'navL': 'Novice',
-        'navP': '0%',
-        'perceptL': 'Novice',
-        'perceptP': '0%',
-        'senseL': 'Novice',
-        'senseP': '0%',
-        'walkL': 'Novice',
-        'walkP': '0%',
-        'windL': 'Novice',
-        'windP': '0%',
+
+        // 'appraisalL': 'Novice',
+        // 'appraisalP': '0%',
+        // 'athleticsL': 'Novice',
+        // 'athleticsP': '0%',
+        // 'bluffL': 'Novice',
+        // 'bluffP': '0%',
+        // 'diplomacyL': 'Novice',
+        // 'diplomacyP': '0%',
+        // 'healL': 'Novice',
+        // 'healP': '0%',
+        // 'insightL': 'Novice',
+        // 'insightP': '0%',
+        // 'mathL': 'Novice',
+        // 'mathP': '0%',
+        // 'navL': 'Novice',
+        // 'navP': '0%',
+        // 'perceptL': 'Novice',
+        // 'perceptP': '0%',
+        // 'senseL': 'Novice',
+        // 'senseP': '0%',
+        // 'walkL': 'Novice',
+        // 'walkP': '0%',
+        // 'windL': 'Novice',
+        // 'windP': '0%',
     },
 
     {
-        'chapter_number': 5, 'display': 'Chapter Five',
+        chapter_number: 5, display: 'Chapter Five',
 
-        'strength': '8.26',
-        'dexterity': '8.51',
-        'constitution': '7.99',
-        'intelligence': '15.58',
-        'magic': '11.38',
-        'charisma': '9.17',
-        'luck': '13.71',
+        strength: '8.26',
+        dexterity: '8.51',
+        constitution: '7.99',
+        intelligence: '15.58',
+        magic: '11.38',
+        charisma: '9.17',
+        luck: '13.71',
 
-        'appraisalL': 'Beginner 1',
-        'appraisalP': '50%',
-        'athleticsL': 'Beginner 2',
-        'athleticsP': '40%',
-        'bluffL': 'Beginner 1',
-        'bluffP': '50%',
-        'diplomacyL': 'Beginner 2',
-        'diplomacyP': '45%',
-        'healL': 'Beginner 7',
-        'healP': '66%',
-        'insightL': 'Beginner 2',
-        'insightP': '9%',
-        'mathL': 'Beginner 2',
-        'mathP': '45%',
-        'navL': 'Beginner 1',
-        'navP': '10%',
-        'perceptL': 'Beginner 2',
-        'perceptP': '30%',
-        'senseL': 'Beginner 1',
-        'senseP': '20%',
-        'walkL': 'Beginner 1',
-        'walkP': '90%',
-        'windL': 'Beginner 2',
-        'windP': '82%',
+        appraisal: {
+          level: "Beginner 1",
+          percentage: "50%",
+        },
+        athletics: {
+          level: "Beginner 2",
+          percentage: "40%",
+        },
+        bluff: {
+          level: "Beginner 1",
+          percentage: "50%",
+        },
+        diplomacy: {
+          level: "Beginner 2",
+          percentage: "45%",
+        },
+        heal: {
+          level: "Beginner 7",
+          percentage: "66%",
+        },
+        insight: {
+          level: "Beginner 2",
+          percentage: "9%",
+        },
+        math: {
+          level: "Beginner 2",
+          percentage: "45%",
+        },
+        nav: {
+          level: "Beginner 1",
+          percentage: "10%",
+        },
+        percept: {
+          level: "Beginner 2",
+          percentage: "30%",
+        },
+        sense: {
+          level: "Beginner 1",
+          percentage: "20%",
+        },
+        walk: {
+          level: "Beginner 1",
+          percentage: "90%",
+        },
+        wind: {
+          level: "Beginner 2",
+          percentage: "82%",
+        },
     },
 
     {
-        'chapter_number': 10, 'display': 'Chapter Ten',
+        chapter_number: 10, display: 'Chapter Ten',
 
-        'strength': '8.8',
-        'dexterity': '9.03',
-        'constitution': '8.52',
-        'intelligence': '16.09',
-        'magic': '11.72',
-        'charisma': '9.68',
-        'luck': '14.07',
+        strength: '8.8',
+        dexterity: '9.03',
+        constitution: '8.52',
+        intelligence: '16.09',
+        magic: '11.72',
+        charisma: '9.68',
+        luck: '14.07',
 
-
-        'appraisalL': 'Beginner 2',
-        'appraisalP': '35%',
-
-        'athleticsL': 'Beginner 4',
-        'athleticsP': '38%',
-
-        'bluffL': 'Beginner 3',
-        'bluffP': '26%',
-
-        'diplomacyL': 'Beginner 4',
-        'diplomacyP': '35%',
-
-        'healL': 'Beginner 9',
-        'healP': '72%',
-
-        'insightL': 'Beginner 4',
-        'insightP': '20%',
-
-        'mathL': 'Beginner 4',
-        'mathP': '10%',
-        
-        'navL': 'Beginner 2',
-        'navP': '80%',
-
-        'perceptL': 'Beginner 4',
-        'perceptP': '33%',
-
-        'senseL': 'Beginner 3',
-        'senseP': '16%',
-
-        'walkL': 'Beginner 3',
-        'walkP': '85%',
-
-        'windL': 'Beginner 2',
-        'windP': '82%',
+        appraisal: {
+          level: "Beginner 2",
+          percentage: "35%",
+        },
+        athletics: {
+          level: "Beginner 4",
+          percentage: "38%",
+        },
+        bluff: {
+          level: "Beginner 3",
+          percentage: "26%",
+        },
+        diplomacy: {
+          level: "Beginner 4",
+          percentage: "35%",
+        },
+        heal: {
+          level: "Beginner 9",
+          percentage: "72%",
+        },
+        insight: {
+          level: "Beginner 4",
+          percentage: "20%",
+        },
+        math: {
+          level: "Beginner 4",
+          percentage: "10%",
+        },
+        nav: {
+          level: "Beginner 2",
+          percentage: "80%",
+        },
+        percept: {
+          level: "Beginner 4",
+          percentage: "33%",
+        },
+        sense: {
+          level: "Beginner 3",
+          percentage: "16%",
+        },
+        walk: {
+          level: "Beginner 3",
+          percentage: "85%",
+        },
+        wind: {
+          level: "Beginner 2",
+          percentage: "82%",
+        },
     },
 
     {
-        'chapter_number': 16, 'display': 'Chapter Sixteen',
+        chapter_number: 16, display: 'Chapter Sixteen',
 
-        'strength': '9.27',
-        'dexterity': '10.05',
-        'constitution': '9.23',
-        'intelligence': '16.58',
-        'magic': '12.24',
-        'charisma': '10.39',
-        'luck': '14.21',
+        strength: '9.27',
+        dexterity: '10.05',
+        constitution: '9.23',
+        intelligence: '16.58',
+        magic: '12.24',
+        charisma: '10.39',
+        luck: '14.21',
+
+        appraisal: {
+          level: "Beginner 7",
+          percentage: "67%",
+        },
+        athletics: {
+          level: "Intermediate 1",
+          percentage: "85%",
+        },
+        bluff: {
+          level: "Intermediate 1",
+          percentage: "23%",
+        },
+        diplomacy: {
+          level: "Beginner 10",
+          percentage: "74%",
+        },
+        heal: {
+          level: "Beginner 9",
+          percentage: "72%",
+        },
+        insight: {
+          level: "Beginner 9",
+          percentage: "37%",
+        },
+        math: {
+          level: "Beginner 5",
+          percentage: "62%",
+        },
+        nav: {
+          level: "Beginner 6",
+          percentage: "77%",
+        },
+        percept: {
+          level: "Intermediate 2",
+          percentage: "70%",
+        },
+        sense: {
+          level: "Beginner 8",
+          percentage: "96%",
+        },
+        walk: {
+          level: "Intermediate 4",
+          percentage: "24%",
+        },
+        wind: {
+          level: "Beginner 5",
+          percentage: "22%",
+        },
     },
 
     {
-        'chapter_number': 26, 'display': 'Chapter Twenty-Six',
+        chapter_number: 26, display: 'Chapter Twenty-Six',
 
-        "strength": "10.16",
-        "dexterity": "11.21",
-        "constitution": "10.14",
-        "intelligence": "17.07",
-        "magic": "12.89",
-        "charisma": "11.12",
-        "luck": "14.53"
+        strength: "10.16",
+        dexterity: "11.21",
+        constitution: "10.14",
+        intelligence: "17.07",
+        magic: "12.89",
+        charisma: "11.12",
+        luck: "14.53",
+
+        appraisal: {
+          level: "Intermediate 1",
+          percentage: "56%",
+        },
+        athletics: {
+          level: "Intermediate 3",
+          percentage: "86%",
+        },
+        bluff: {
+          level: "Intermediate 2",
+          percentage: "72%",
+        },
+        diplomacy: {
+          level: "Intermediate 4",
+          percentage: "47%",
+        },
+        heal: {
+          level: "Beginner 10",
+          percentage: "98%",
+        },
+        insight: {
+          level: "Intermediate 3",
+          percentage: "38%",
+        },
+        math: {
+          level: "Beginner 6",
+          percentage: "80%",
+        },
+        nav: {
+          level: "Beginner 9",
+          percentage: "40%",
+        },
+        percept: {
+          level: "Intermediate 4",
+          percentage: "51%",
+        },
+        sense: {
+          level: "Intermediate 1",
+          percentage: "79%",
+        },
+        walk: {
+          level: "Intermediate 5",
+          percentage: "63%",
+        },
+        wind: {
+          level: "Beginner 6",
+          percentage: "48%",
+        },
     },
 
     {
-        'chapter_number': 32, 'display': 'Chapter Thirty-Two',
+        chapter_number: 32, display: 'Chapter Thirty-Two',
 
-        "strength": "11.02",
-        "dexterity": "12.01",
-        "constitution": "10.97",
-        "intelligence": "17.64",
-        "magic": "13.06",
-        "charisma": "11.53",
-        "luck": "14.74"
+        strength: "11.02",
+        dexterity: "12.01",
+        constitution: "10.97",
+        intelligence: "17.64",
+        magic: "13.06",
+        charisma: "11.53",
+        luck: "14.74",
+
+        appraisal: {
+          level: "Intermediate 4",
+          percentage: "39%",
+        },
+        athletics: {
+          level: "Intermediate 4",
+          percentage: "30%",
+        },
+        bluff: {
+          level: "Intermediate 3",
+          percentage: "54%",
+        },
+        diplomacy: {
+          level: "Intermediate 6",
+          percentage: "9%",
+        },
+        heal: {
+          level: "Intermediate 3",
+          percentage: "78%",
+        },
+        insight: {
+          level: "Intermediate 5",
+          percentage: "87%",
+        },
+        math: {
+          level: "Beginner 7",
+          percentage: "4%",
+        },
+        nav: {
+          level: "Intermediate 1",
+          percentage: "99%",
+        },
+        percept: {
+          level: "Intermediate 6",
+          percentage: "35%",
+        },
+        sense: {
+          level: "Intermediate 4",
+          percentage: "14%",
+        },
+        walk: {
+          level: "Intermediate 6",
+          percentage: "73%",
+        },
+        wind: {
+          level: "Beginner 8",
+          percentage: "74%",
+        },
     },
 
 ];
@@ -394,42 +626,48 @@ select.onchange = function()
             document.querySelector("#charisma").textContent = chapterJson[i]['charisma'];
             document.querySelector("#luck").textContent = chapterJson[i]['luck'];
 
-            document.querySelector('#appraisalL').textContent = chapterJson[i]['appraisalL'];
-            document.querySelector('#appraisalP').textContent = chapterJson[i]['appraisalP'];
 
-            document.querySelector('#athleticsL').textContent = chapterJson[i]['athleticsL'];
-            document.querySelector('#athleticsP').textContent = chapterJson[i]['athleticsP'];
+            // document.querySelector('#appraisalL').textContent = chapterJson[i]['appraisal.level'];
+            // document.querySelector('#appraisalP').textContent = chapterJson[i]['appraisalP'];
+            // console.log(chapterJson[i].appraisal.level);
 
-            document.querySelector('#bluffL').textContent = chapterJson[i]['bluffL'];
-            document.querySelector('#bluffP').textContent = chapterJson[i]['bluffP'];
-
-            document.querySelector('#diplomacyL').textContent = chapterJson[i]['diplomacyL'];
-            document.querySelector('#diplomacyP').textContent = chapterJson[i]['diplomacyP'];
-
-            document.querySelector('#healL').textContent = chapterJson[i]['healL'];
-            document.querySelector('#healP').textContent = chapterJson[i]['healP'];
-
-            document.querySelector('#insightL').textContent = chapterJson[i]['insightL'];
-            document.querySelector('#insightP').textContent = chapterJson[i]['insightP'];
-
-            document.querySelector('#mathL').textContent = chapterJson[i]['mathL'];
-            document.querySelector('#mathP').textContent = chapterJson[i]['mathP'];
-
-            document.querySelector('#navL').textContent = chapterJson[i]['navL'];
-            document.querySelector('#navP').textContent = chapterJson[i]['navP'];
-
-            document.querySelector('#perceptL').textContent = chapterJson[i]['perceptL'];
-            document.querySelector('#perceptP').textContent = chapterJson[i]['perceptP'];
+            document.querySelector('#appraisalL').textContent = chapterJson[i]["appraisal"].level;
+            document.querySelector('#appraisalP').textContent = chapterJson[i]["appraisal"].percentage;
 
 
-            document.querySelector('#senseL').textContent = chapterJson[i]['senseL'];
-            document.querySelector('#senseP').textContent = chapterJson[i]['senseP'];
+            document.querySelector('#athleticsL').textContent = chapterJson[i]["athletics"].level;
+            document.querySelector('#athleticsP').textContent = chapterJson[i]['athletics'].percentage;
 
-            document.querySelector('#walkL').textContent = chapterJson[i]['walkL'];
-            document.querySelector('#walkP').textContent = chapterJson[i]['walkP'];
+            document.querySelector('#bluffL').textContent = chapterJson[i]['bluff'].level;
+            document.querySelector('#bluffP').textContent = chapterJson[i]['bluff'].percentage;
 
-            document.querySelector('#windL').textContent = chapterJson[i]['windL'];
-            document.querySelector('#windP').textContent = chapterJson[i]['windP'];
+            document.querySelector('#diplomacyL').textContent = chapterJson[i]['diplomacy'].level;
+            document.querySelector('#diplomacyP').textContent = chapterJson[i]['diplomacy'].percentage;
+
+            document.querySelector('#healL').textContent = chapterJson[i]['heal'].level;
+            document.querySelector('#healP').textContent = chapterJson[i]['heal'].percentage;
+
+            document.querySelector('#insightL').textContent = chapterJson[i]['insight'].level;
+            document.querySelector('#insightP').textContent = chapterJson[i]['insight'].percentage;
+
+            document.querySelector('#mathL').textContent = chapterJson[i]['math'].level;
+            document.querySelector('#mathP').textContent = chapterJson[i]['math'].percentage;
+
+            document.querySelector('#navL').textContent = chapterJson[i]['nav'].level;
+            document.querySelector('#navP').textContent = chapterJson[i]['nav'].percentage;
+
+            document.querySelector('#perceptL').textContent = chapterJson[i]['percept'].level;
+            document.querySelector('#perceptP').textContent = chapterJson[i]['percept'].percentage;
+
+
+            document.querySelector('#senseL').textContent = chapterJson[i]['sense'].level;
+            document.querySelector('#senseP').textContent = chapterJson[i]['sense'].percentage;
+
+            document.querySelector('#walkL').textContent = chapterJson[i]['walk'].level;
+            document.querySelector('#walkP').textContent = chapterJson[i]['walk'].percentage;
+
+            document.querySelector('#windL').textContent = chapterJson[i]['wind'].level;
+            document.querySelector('#windP').textContent = chapterJson[i]['wind'].percentage;
 
             // input.value = chapterJson[i]['display'];
             // strength.value = chapterJson[i]['strength'];
