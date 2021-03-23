@@ -441,9 +441,6 @@ var chapterJson = [
         },
     },
 
-
-
-
 {
     'chapter_number': 7, 'display': 'Chapter One',
 
