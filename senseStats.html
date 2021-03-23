@@ -45,11 +45,15 @@
       <a href="stats.html"><h4></h5>&#10229; Back</h5></a>
   </div>
 
-  <h1 class="home-h1">STATS: ADAPT</h1>
+  <h1 class="home-h1">STATS: SENSE</h1>
 
 <div class="dropdown">
 <select id="chapterlist">
-    <option value="">Select a Chapter</option>
+    <option value="0">Select a Chapter</option>
+    <option value="11">Chapter One</option>
+    <option value="12">Chapter Seventeen</option>
+    <option value="13">Chapter Twenty-Eight</option>
+    <option value="14">Chapter Fourty</option>
 </select>
 <br>
 
@@ -109,91 +113,5 @@
   </footer>
 <script src="https://kit.fontawesome.com/82e4275e9f.js" crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
-
-<script>
-    var chapterJson = [
-    {
-        'chapter_number': 1, 'display': 'Chapter One',
-
-            "strength": "23.63",
-            "dexterity": "22.78",
-            "constitution": "23.77",
-            "intelligence": "24.7",
-            "magic": "27.12",
-            "charisma": "21.38",
-            "luck": "20.83"
-    },
-
-    {
-        'chapter_number': 17, 'display': 'Chapter Seventeen',
-
-            "strength": "24.87",
-            "dexterity": "24.57",
-            "constitution": "25.9",
-            "intelligence": "25.91",
-            "magic": "29.57",
-            "charisma": "22.67",
-            "luck": "23.05"
-    },
-
-    {
-        'chapter_number': 28, 'display': 'Chapter Twenty-Eight',
-
-            "strength": "26.58",
-            "dexterity": "26.97",
-            "constitution": "27.73",
-            "intelligence": "27.76",
-            "magic": "30.53",
-            "charisma": "23.48",
-            "luck": "23.72"
-    },
-
-    {
-        'chapter_number': 40, 'display': 'Chapter Fourty',
-
-            "strength": "27.89",
-            "dexterity": "28.6",
-            "constitution": "29.49",
-            "intelligence": "29.44",
-            "magic": "32.17",
-            "charisma": "24.33",
-            "luck": "24.26"
-    },
-
-];
-
-var select = document.getElementById('chapterlist');
-
-for (var i = 0; i < chapterJson.length; i++) {
-    var option = document.createElement("option");
-    option.value = chapterJson[i]['chapter_number'];
-    option.text = chapterJson[i]['display'];
-    select.appendChild(option);
-}          
-var input = document.getElementById('inp');
-select.onchange = function()
-{
-    for (var i = 0; i < chapterJson.length; i++) {
-        if(chapterJson[i]['chapter_number'] == this.value)
-        {
-            document.querySelector("#inp").textContent = chapterJson[i]['display'];
-            document.querySelector("#strength").textContent = chapterJson[i]['strength'];
-            document.querySelector("#dexterity").textContent = chapterJson[i]['dexterity'];
-            document.querySelector("#constitution").textContent = chapterJson[i]['constitution'];
-            document.querySelector("#intelligence").textContent = chapterJson[i]['intelligence'];
-            document.querySelector("#magic").textContent = chapterJson[i]['magic'];
-            document.querySelector("#charisma").textContent = chapterJson[i]['charisma'];
-            document.querySelector("#luck").textContent = chapterJson[i]['luck'];
-
-        }
-        if(this.value == '')
-        {
-            input.value = this.value;
-        }
-    }
-    
-};
-</script>
-
 </body>
 </html>
