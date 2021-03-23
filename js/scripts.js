@@ -557,13 +557,27 @@ var select = document.getElementById('chapterlist');
 //     select.appendChild(option);
 // }      
 
-var input = document.getElementById('inp');
+var chapter = document.getElementById('chapTitle');
 select.onchange = function()
 {
     for (var i = 0; i < chapterJson.length; i++) {
         if(chapterJson[i]['chapter_number'] == this.value)
         {
-            document.querySelector("#inp").textContent = chapterJson[i]['display'];
+
+            // input.value = chapterJson[i]['display'];
+            // strength.value = chapterJson[i]['strength'];
+            // dexterity.value = chapterJson[i]['dexterity'];
+            // constitution.value = chapterJson[i]['constitution'];
+            // intelligence.value = chapterJson[i]['intelligence'];
+            // magic.value = chapterJson[i]['magic'];
+            // charisma.value = chapterJson[i]['charisma'];
+            // luck.value = chapterJson[i]['luck'];
+
+            // document.querySelector('#appraisalL').textContent = chapterJson[i]['appraisal.level'];
+            // document.querySelector('#appraisalP').textContent = chapterJson[i]['appraisalP'];
+            // console.log(chapterJson[i].appraisal.level);
+
+            document.querySelector("#chapTitle").textContent = chapterJson[i]['display'];
             document.querySelector("#strength").textContent = chapterJson[i]['strength'];
             document.querySelector("#dexterity").textContent = chapterJson[i]['dexterity'];
             document.querySelector("#constitution").textContent = chapterJson[i]['constitution'];
@@ -572,14 +586,8 @@ select.onchange = function()
             document.querySelector("#charisma").textContent = chapterJson[i]['charisma'];
             document.querySelector("#luck").textContent = chapterJson[i]['luck'];
 
-
-            // document.querySelector('#appraisalL').textContent = chapterJson[i]['appraisal.level'];
-            // document.querySelector('#appraisalP').textContent = chapterJson[i]['appraisalP'];
-            // console.log(chapterJson[i].appraisal.level);
-
             document.querySelector('#appraisalL').textContent = chapterJson[i]["appraisal"].level;
             document.querySelector('#appraisalP').textContent = chapterJson[i]["appraisal"].percentage;
-
 
             document.querySelector('#athleticsL').textContent = chapterJson[i]["athletics"].level;
             document.querySelector('#athleticsP').textContent = chapterJson[i]['athletics'].percentage;
@@ -605,7 +613,6 @@ select.onchange = function()
             document.querySelector('#perceptL').textContent = chapterJson[i]['percept'].level;
             document.querySelector('#perceptP').textContent = chapterJson[i]['percept'].percentage;
 
-
             document.querySelector('#senseL').textContent = chapterJson[i]['sense'].level;
             document.querySelector('#senseP').textContent = chapterJson[i]['sense'].percentage;
 
@@ -614,19 +621,10 @@ select.onchange = function()
 
             document.querySelector('#windL').textContent = chapterJson[i]['wind'].level;
             document.querySelector('#windP').textContent = chapterJson[i]['wind'].percentage;
-
-            // input.value = chapterJson[i]['display'];
-            // strength.value = chapterJson[i]['strength'];
-            // dexterity.value = chapterJson[i]['dexterity'];
-            // constitution.value = chapterJson[i]['constitution'];
-            // intelligence.value = chapterJson[i]['intelligence'];
-            // magic.value = chapterJson[i]['magic'];
-            // charisma.value = chapterJson[i]['charisma'];
-            // luck.value = chapterJson[i]['luck'];
         }
         if(this.value == '')
         {
-            input.value = this.value;
+          chapter.value = this.value;
         }
     }
     
