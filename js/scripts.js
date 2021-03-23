@@ -25,57 +25,68 @@ var chapterJson = [
     charisma: '',
     luck: '',
 
-    appraisal: {
+    "ability 1": {
+      ability: "",
       level: "",
       percentage: "",
     },
-    athletics: {
+    "ability 2": {
+      ability: "",
       level: "",
       percentage: "",
     },
-    bluff: {
+    "ability 3": {
+      ability: "",
       level: "",
       percentage: "",
     },
-    diplomacy: {
+    "ability 4": {
+      ability: "",
       level: "",
       percentage: "",
     },
-    heal: {
+    'ability 5': {
+      ability: "",
       level: "",
       percentage: "",
     },
-    insight: {
+    "ability 6": {
+      ability: "",
       level: "",
       percentage: "",
     },
-    math: {
+    "ability 7": {
+      ability: "",
       level: "",
       percentage: "",
     },
-    nav: {
+    "ability 8": {
+      ability: "",
       level: "",
       percentage: "",
     },
-    percept: {
+    "ability 9": {
+      ability: "",
       level: "",
       percentage: "",
     },
-    sense: {
+    "ability 10": {
+      ability: "",
       level: "",
       percentage: "",
     },
-    walk: {
+    "ability 11": {
+      ability: "",
       level: "",
       percentage: "",
     },
-    wind: {
+    'ability 12': {
+      ability: "",
       level: "",
       percentage: "",
     },
-
-
   },
+
   {
     chapter_number: 1, display: 'Chapter One',
     strength: '7.94',
@@ -86,51 +97,63 @@ var chapterJson = [
     charisma: '8.98',
     luck: '13.45',
 
-    appraisal: {
+    "ability 1": {
+      ability: "Appraisal",
       level: "Novice",
       percentage: "0%",
     },
-    athletics: {
+    "ability 2": {
+      ability: "Athletics",
       level: "Novice",
       percentage: "0%",
     },
-    bluff: {
+    "ability 3": {
+      ability: "Bluff",
       level: "Novice",
       percentage: "0%",
     },
-    diplomacy: {
+    "ability 4": {
+      ability: "Diplomacy",
       level: "Novice",
       percentage: "0%",
     },
-    heal: {
+    'ability 5': {
+      ability: "Healing Magic",
       level: "Novice",
       percentage: "0%",
     },
-    insight: {
+    'ability 6': {
+      ability: "Insight",
       level: "Novice",
       percentage: "0%",
     },
-    math: {
+    "ability 7": {
+      ability: "Mathematics",
       level: "Novice",
       percentage: "0%",
     },
-    nav: {
+    "ability 8": {
+      ability: "Navigation",
       level: "Novice",
       percentage: "0%",
     },
-    percept: {
+    "ability 9": {
+      ability: "Perception",
       level: "Novice",
       percentage: "0%",
     },
-    sense: {
+    'ability 10': {
+      ability: "Sense Motive",
       level: "Novice",
       percentage: "0%",
     },
-    walk: {
+    "ability 11": {
+      ability: "Walking",
       level: "Novice",
       percentage: "0%",
     },
-    wind: {
+    'ability 12': {
+      ability: "Wind Magic",
       level: "Novice",
       percentage: "0%",
     },
@@ -147,51 +170,63 @@ var chapterJson = [
     charisma: '9.17',
     luck: '13.71',
 
-    appraisal: {
+    "ability 1": {
+      ability: "Appraisal",
       level: "Beginner 1",
       percentage: "50%",
     },
-    athletics: {
+    "ability 2": {
+      ability: "Athletics",
       level: "Beginner 2",
       percentage: "40%",
     },
-    bluff: {
+    "ability 3": {
+      ability: "Bluff",
       level: "Beginner 1",
       percentage: "50%",
     },
-    diplomacy: {
+    "ability 4": {
+      ability: "Diplomacy",
       level: "Beginner 2",
       percentage: "45%",
     },
-    heal: {
+    "ability 5": {
+      ability: "Healing Magic",
       level: "Beginner 7",
       percentage: "66%",
     },
-    insight: {
+    "ability 6": {
+      ability: "Insight",
       level: "Beginner 2",
       percentage: "9%",
     },
-    math: {
+    "ability 7": {
+      ability: "Mathematics",
       level: "Beginner 2",
       percentage: "45%",
     },
-    nav: {
+    "ability 8": {
+      ability: "Navigation",
       level: "Beginner 1",
       percentage: "10%",
     },
-    percept: {
+    "ability 9": {
+      ability: "Perception",
       level: "Beginner 2",
       percentage: "30%",
     },
-    sense: {
+    "ability 10": {
+      ability: "Sense Motive",
       level: "Beginner 1",
       percentage: "20%",
     },
-    walk: {
+    "ability 11": {
+      ability: "Walking",
       level: "Beginner 1",
       percentage: "90%",
     },
-    wind: {
+    "ability 12": {
+      ability: "Wind Magic",
       level: "Beginner 2",
       percentage: "82%",
     },
@@ -208,51 +243,64 @@ var chapterJson = [
     charisma: '9.68',
     luck: '14.07',
 
-    appraisal: {
+    "ability 1": {
+      ability: "Appraisal",
       level: "Beginner 2",
       percentage: "35%",
     },
-    athletics: {
+    "ability 2": {
+      ability: "Athletics",
       level: "Beginner 4",
       percentage: "38%",
     },
-    bluff: {
+    "ability 3": {
+      ability: "Bluff",
       level: "Beginner 3",
       percentage: "26%",
     },
-    diplomacy: {
+    "ability 4": {
+      ability: "Diplomacy",
       level: "Beginner 4",
       percentage: "35%",
     },
-    heal: {
+    "ability 5": {
+      ability: "Healing Magic",
       level: "Beginner 9",
       percentage: "72%",
     },
-    insight: {
+    "ability 6": {
+      ability: "Insight",
       level: "Beginner 4",
       percentage: "20%",
     },
-    math: {
+    "ability 7": {
+      ability: "Mathematics",
       level: "Beginner 4",
       percentage: "10%",
     },
-    nav: {
+    "ability 8": {
+      ability: "Navigation",
       level: "Beginner 2",
       percentage: "80%",
     },
-    percept: {
+    "ability 9": {
+      ability: "Perception",
       level: "Beginner 4",
       percentage: "33%",
     },
-    sense: {
+    "ability 10": {
+      ability: "Sense Motive",
       level: "Beginner 3",
       percentage: "16%",
     },
-    walk: {
+
+    "ability 11": {
+      ability: "Walking",
       level: "Beginner 3",
       percentage: "85%",
     },
-    wind: {
+    "ability 12": {
+      ability: "Wind Magic",
       level: "Beginner 2",
       percentage: "82%",
     },
@@ -269,51 +317,64 @@ var chapterJson = [
     charisma: '10.39',
     luck: '14.21',
 
-    appraisal: {
+    "ability 1": {
+      ability: "Appraisal",
       level: "Beginner 7",
       percentage: "67%",
     },
-    athletics: {
+    "ability 2": {
+      ability: "Athletics",
       level: "Intermediate 1",
       percentage: "85%",
     },
-    bluff: {
+    "ability 3": {
+      ability: "Bluff",
       level: "Intermediate 1",
       percentage: "23%",
     },
-    diplomacy: {
+    "ability 4": {
+      ability: "Diplomacy",
       level: "Beginner 10",
       percentage: "74%",
     },
-    heal: {
+    "ability 5": {
+      ability: "Healing Magic",
       level: "Beginner 9",
       percentage: "72%",
     },
-    insight: {
+    "ability 6": {
+      ability: "Insight",
       level: "Beginner 9",
       percentage: "37%",
     },
-    math: {
+    "ability 7": {
+      ability: "Mathematics",
       level: "Beginner 5",
       percentage: "62%",
     },
-    nav: {
+    "ability 8": {
+      ability: "Navigation",
       level: "Beginner 6",
       percentage: "77%",
     },
-    percept: {
+    "ability 9": {
+      ability: "Perception",
       level: "Intermediate 2",
       percentage: "70%",
     },
-    sense: {
+    "ability 10": {
+      ability: "Sense Motive",
       level: "Beginner 8",
       percentage: "96%",
     },
-    walk: {
+
+    "ability 11": {
+      ability: "Walking",
       level: "Intermediate 4",
       percentage: "24%",
     },
-    wind: {
+    "ability 12": {
+      ability: "Wind Magic",
       level: "Beginner 5",
       percentage: "22%",
     },
@@ -330,51 +391,64 @@ var chapterJson = [
     charisma: "11.12",
     luck: "14.53",
 
-    appraisal: {
+    "ability 1": {
+      ability: "Appraisal",
       level: "Intermediate 1",
       percentage: "56%",
     },
-    athletics: {
+    "ability 2": {
+      ability: "Athletics",
       level: "Intermediate 3",
       percentage: "86%",
     },
-    bluff: {
+    "ability 3": {
+      ability: "Bluff",
       level: "Intermediate 2",
       percentage: "72%",
     },
-    diplomacy: {
+    "ability 4": {
+      ability: "Diplomacy",
       level: "Intermediate 4",
       percentage: "47%",
     },
-    heal: {
+    "ability 5": {
+      ability: "Healing Magic",
       level: "Beginner 10",
       percentage: "98%",
     },
-    insight: {
+    "ability 6": {
+      ability: "Insight",
       level: "Intermediate 3",
       percentage: "38%",
     },
-    math: {
+    "ability 7": {
+      ability: "Mathematics",
       level: "Beginner 6",
       percentage: "80%",
     },
-    nav: {
+    "ability 8": {
+      ability: "Navigation",
       level: "Beginner 9",
       percentage: "40%",
     },
-    percept: {
+    "ability 9": {
+      ability: "Perception",
       level: "Intermediate 4",
       percentage: "51%",
     },
-    sense: {
+    "ability 10": {
+      ability: "Sense Motive",
       level: "Intermediate 1",
       percentage: "79%",
     },
-    walk: {
+
+    "ability 11": {
+      ability: "Walking",
       level: "Intermediate 5",
       percentage: "63%",
     },
-    wind: {
+    "ability 12": {
+      ability: "Wind Magic",
       level: "Beginner 6",
       percentage: "48%",
     },
@@ -391,51 +465,63 @@ var chapterJson = [
     charisma: "11.53",
     luck: "14.74",
 
-    appraisal: {
+    "ability 1": {
+      ability: "Appraisal",
       level: "Intermediate 4",
       percentage: "39%",
     },
-    athletics: {
+    "ability 2": {
+      ability: "Athletics",
       level: "Intermediate 4",
       percentage: "30%",
     },
-    bluff: {
+    "ability 3": {
+      ability: "Bluff",
       level: "Intermediate 3",
       percentage: "54%",
     },
-    diplomacy: {
+    "ability 4": {
+      ability: "Diplomacy",
       level: "Intermediate 6",
       percentage: "9%",
     },
-    heal: {
+    "ability 5": {
+      ability: "Healing Magic",
       level: "Intermediate 3",
       percentage: "78%",
     },
-    insight: {
+    "ability 6": {
+      ability: "Insight",
       level: "Intermediate 5",
       percentage: "87%",
     },
-    math: {
+    "ability 7": {
+      ability: "Mathematics",
       level: "Beginner 7",
       percentage: "4%",
     },
-    nav: {
+    "ability 8": {
+      ability: "Navigation",
       level: "Intermediate 1",
       percentage: "99%",
     },
-    percept: {
+    "ability 9": {
+      ability: "Perception",
       level: "Intermediate 6",
       percentage: "35%",
     },
-    sense: {
+    "ability 10": {
+      ability: "Sense Motive",
       level: "Intermediate 4",
       percentage: "14%",
     },
-    walk: {
+    "ability 11": {
+      ability: "Walking",
       level: "Intermediate 6",
       percentage: "73%",
     },
-    wind: {
+    "ability 12": {
+      ability: "Wind Magic",
       level: "Beginner 8",
       percentage: "74%",
     },
@@ -452,51 +538,64 @@ var chapterJson = [
     charisma: "12.44",
     luck: "15.19",
 
-    appraisal: {
+    "ability 1": {
+      ability: "Appraisal",
       level: "Intermediate 5",
       percentage: "14%",
     },
-    athletics: {
+    "ability 2": {
+      ability: "Athletics",
       level: "Intermediate 4",
       percentage: "92%",
     },
-    bluff: {
+    "ability 3": {
+      ability: "Bluff",
       level: "Intermediate 4",
       percentage: "52%",
     },
-    diplomacy: {
+    "ability 4": {
+      ability: "Diplomacy",
       level: "Intermediate 6",
       percentage: "73%",
     },
-    heal: {
+    "ability 5": {
+      ability: "Healing Magic",
       level: "Intermediate 5",
       percentage: "25%",
     },
-    insight: {
+
+    "ability 6": {
+      ability: "Insight",
       level: "Intermediate 6",
       percentage: "47%",
     },
-    math: {
+    "ability 7": {
+      ability: "Mathematics",
       level: "Beginner 7",
       percentage: "4%",
     },
-    nav: {
+    "ability 8": {
+      ability: "Navigation",
       level: "Intermediate 2",
       percentage: "39%",
     },
-    percept: {
+    "ability 9": {
+      ability: "Perception",
       level: "Intermediate 7",
       percentage: "9%",
     },
-    sense: {
+    "ability 10": {
+      ability: "Sense Motive",
       level: "Intermediate 5",
       percentage: "6%",
     },
-    walk: {
+    "ability 11": {
+      ability: "Walking",
       level: "Intermediate 7",
       percentage: "16%",
     },
-    wind: {
+    "ability 12": {
+      ability: "Wind Magic",
       level: "Beginner 10",
       percentage: "69%",
     },
@@ -513,56 +612,66 @@ var chapterJson = [
     charisma: "14.27",
     luck: "15.76",
 
-
-    appraisal: {
+    "ability 1": {
+      ability: "Appraisal",
       level: "Intermediate 5",
       percentage: "45%",
     },
-    athletics: {
+    "ability 2": {
+      ability: "Athletics",
       level: "Intermediate 4",
       percentage: "92%",
     },
-    bluff: {
+    "ability 3": {
+      ability: "Bluff",
       level: "Intermediate 5",
       percentage: "73%",
     },
-    diplomacy: {
+    "ability 4": {
+      ability: "Diplomacy",
       level: "Intermediate 7",
       percentage: "46%",
     },
-    heal: {
+    "ability 5": {
+      ability: "Healing Magic",
       level: "Intermediate 8",
       percentage: "12%",
     },
-    insight: {
+    "ability 6": {
+      ability: "Insight",
       level: "Intermediate 7",
       percentage: "12%",
     },
-    math: {
+    "ability 7": {
+      ability: "Mathematics",
       level: "Beginner 7",
       percentage: "27%",
     },
-    nav: {
+    "ability 8": {
+      ability: "Navigation",
       level: "Intermediate 4",
       percentage: "9%",
     },
-    percept: {
+    "ability 9": {
+      ability: "Perception",
       level: "Intermediate 8",
       percentage: "7%",
     },
-    sense: {
+    "ability 10": {
+      ability: "Sense Motive",
       level: "Intermediate 7",
       percentage: "24%",
     },
-    walk: {
+    "ability 11": {
+      ability: "Walking",
       level: "Intermediate 7",
       percentage: "72%",
     },
-    wind: {
+    "ability 12": {
+      ability: "Wind Magic",
       level: "Intermediate 6",
       percentage: "90%",
     },
-
   },
 
   {
@@ -574,7 +683,68 @@ var chapterJson = [
     intelligence: "20.72",
     magic: "18.52",
     charisma: "17.22",
-    luck: "16.97"
+    luck: "16.97",
+
+    "ability 1": {
+      ability: "Appraisal",
+      level: "Intermediate 6",
+      percentage: "58%",
+    },
+    "ability 2": {
+      ability: "Athletics",
+      level: "Intermediate 5",
+      percentage: "46%",
+    },
+    "ability 3": {
+      ability: "Bluff",
+      level: "Intermediate 6",
+      percentage: "92%",
+    },
+    "ability 4": {
+      ability: "Diplomacy",
+      level: "Intermediate 9",
+      percentage: "13%",
+    },
+    "ability 5": {
+      ability: "Healing Magic",
+      level: "Intermediate 9",
+      percentage: "33%",
+    },
+    "ability 6": {
+      ability: "Insight",
+      level: "Intermediate 8",
+      percentage: "95%",
+    },
+    "ability 7": {
+      ability: "Mathematics",
+      level: "Beginner 7",
+      percentage: "94%",
+    },
+    "ability 8": {
+      ability: "Navigation",
+      level: "Intermediate 4",
+      percentage: "64%",
+    },
+    "ability 9": {
+      ability: "Perception",
+      level: "Intermediate 9",
+      percentage: "24%",
+    },
+    "ability 10": {
+      ability: "Sense Motive",
+      level: "Intermediate 7",
+      percentage: "65%",
+    },
+    "ability 11": {
+      ability: "Walking",
+      level: "Intermediate 8",
+      percentage: "42%",
+    },
+    "ability 12": {
+      ability: "Wind Magic",
+      level: "Intermediate 8",
+      percentage: "11%",
+    },
   },
 
   {
@@ -586,9 +756,70 @@ var chapterJson = [
     intelligence: "21.42",
     magic: "19.55",
     charisma: "18.01",
-    luck: "17.76"
-  },
+    luck: "17.76",
 
+    'ability 1': {
+      ability: "Appraisal",
+      level: "Intermediate 9",
+      percentage: "78%",
+    },
+    'ability 2': {
+      ability: "Athletics",
+      level: "Advanced 1",
+      percentage: "16%",
+    },
+    'ability 3': {
+      ability: "Bluff",
+      level: "Intermediate 9",
+      percentage: "58%",
+    },
+    'ability 4': {
+      ability: "Diplomacy",
+      level: "Intermediate 10",
+      percentage: "94%",
+    },
+    'ability 5': {
+      ability: "Healing Magic",
+      level: "Advanced 2",
+      percentage: "47%",
+    },
+    'ability 6': {
+      ability: "Insight",
+      level: "Advanced 2",
+      percentage: "23%",
+    },
+    'ability 7': {
+      ability: "Mathematics",
+      level: "Beginner 10",
+      percentage: "9%",
+    },
+    'ability 8': {
+      ability: "Navigation",
+      level: "Intermediate 5",
+      percentage: "89%",
+    },
+    'ability 9': {
+      ability: "Perception",
+      level: "Advanced 1",
+      percentage: "65%",
+    },
+    'ability 10': {
+      ability: "Sense Motive",
+      level: "Intermediate 9",
+      percentage: "43%",
+    },
+    'ability 11': {
+      ability: "Walking",
+      level: "Intermediate 10",
+      percentage: "39%",
+    },
+
+    'ability 12': {
+      ability: "Wind Magic ➝ Elementalist",
+      level: "Advanced 7",
+      percentage: "89%",
+    },
+  },
 
 
   {
@@ -600,7 +831,74 @@ var chapterJson = [
     intelligence: "24.7",
     magic: "27.12",
     charisma: "21.38",
-    luck: "20.83"
+    luck: "20.83",
+
+
+    'ability 1': {
+      ability: "Appraisal ➝ Merchant",
+      level: "Advanced 10",
+      percentage: "12%",
+    },
+    'ability 2': {
+      ability: "Athletics",
+      level: "Advanced 2",
+      percentage: "5%",
+    },
+    'ability 3': {
+      ability: "Bluff",
+      level: "Intermediate 10",
+      percentage: "38%",
+    },
+
+    'ability 4': {
+      ability: `Diplomacy ➝ Merchant`,
+      level: "Advanced 10",
+      percentage: "12%",
+    },
+    'ability 5': {
+      ability: "Healing Magic",
+      level: "Advanced 3",
+      percentage: "6%",
+    },
+    'ability 6': {
+      ability: "Insight",
+      level: "Advanced 3",
+      percentage: "30%",
+    },
+
+    'ability 7': {
+      ability: "Mathematics ➝ Merchant",
+      level: "Advanced 10",
+      percentage: "12%",
+    },
+    'ability 8': {
+      ability: "Navigation",
+      level: "Intermediate 6",
+      percentage: "79%",
+    },
+    'ability 9': {
+      ability: "Perception",
+      level: "Advanced 3",
+      percentage: "11%",
+    },
+
+    'ability 10': {
+      ability: "Sense Motive ➝ Merchant",
+      level: "Advanced 10",
+      percentage: "12%",
+    },
+    'ability 11': {
+      ability: "Walking",
+      level: "Advanced 1",
+      percentage: "20%",
+    },
+
+    'ability 12': {
+      ability: "Wind Magic ➝ Elementalist",
+      level: "Advanced 8",
+      percentage: "43%",
+    },
+
   },
 
   {
@@ -612,7 +910,69 @@ var chapterJson = [
     intelligence: "25.91",
     magic: "29.57",
     charisma: "22.67",
-    luck: "23.05"
+    luck: "23.05",
+
+    'ability 1': {
+      ability: "Appraisal ➝ Merchant",
+      level: "Advanced 10",
+      percentage: "34%",
+    },
+    'ability 2': {
+      ability: "Athletics",
+      level: "Advanced 2",
+      percentage: "44%",
+    },
+    'ability 3': {
+      ability: "Bluff",
+      level: "Intermediate 10",
+      percentage: "38%",
+    },
+
+    'ability 4': {
+      ability: `Diplomacy ➝ Merchant`,
+      level: "Advanced 10",
+      percentage: "34%",
+    },
+    'ability 5': {
+      ability: "Healing Magic",
+      level: "Advanced 4",
+      percentage: "6%",
+    },
+    'ability 6': {
+      ability: "Insight",
+      level: "Advanced 4",
+      percentage: "9%",
+    },
+    'ability 7': {
+      ability: "Mathematics ➝ Merchant",
+      level: "Advanced 10",
+      percentage: "34%",
+    },
+    'ability 8': {
+      ability: "Navigation",
+      level: "Intermediate 8",
+      percentage: "93%",
+    },
+    'ability 9': {
+      ability: "Perception",
+      level: "Advanced 4",
+      percentage: "9%",
+    },
+    'ability 10': {
+      ability: "Sense Motive ➝ Merchant",
+      level: "Advanced 10",
+      percentage: "34%",
+    },
+    'ability 11': {
+      ability: "Walking",
+      level: "Advanced 2",
+      percentage: "9%",
+    },
+    'ability 12': {
+      ability: "Wind Magic ➝ Elementalist",
+      level: "Advanced 9",
+      percentage: "43%",
+    },
   },
 
   {
@@ -624,7 +984,70 @@ var chapterJson = [
     intelligence: "27.76",
     magic: "30.53",
     charisma: "23.48",
-    luck: "23.72"
+    luck: "23.72",
+
+
+    'ability 1': {
+      ability: "Appraisal ➝ Merchant",
+      level: "Advanced 10",
+      percentage: "53%",
+    },
+    'ability 2': {
+      ability: "Athletic ➝ Unstoppable",
+      level: "Advanced 10",
+      percentage: "4%",
+    },
+    'ability 3': {
+      ability: "Bluff",
+      level: "Advanced 1",
+      percentage: "5%",
+    },
+
+    'ability 4': {
+      ability: `Diplomacy ➝ Merchant`,
+      level: "Advanced 10",
+      percentage: "53%",
+    },
+    'ability 5': {
+      ability: "Healing Magic",
+      level: "Advanced 4",
+      percentage: "36%",
+    },
+    'ability 6': {
+      ability: "Insight",
+      level: "Advanced 4",
+      percentage: "43%",
+    },
+    'ability 7': {
+      ability: "Mathematics ➝ Merchant",
+      level: "Advanced 10",
+      percentage: "53%",
+    },
+    'ability 8': {
+      ability: "Navigation",
+      level: "Intermediate 10",
+      percentage: "7%",
+    },
+    'ability 9': {
+      ability: "Perception",
+      level: "Advanced 4",
+      percentage: "53%",
+    },
+    'ability 10': {
+      ability: "Sense Motive ➝ Merchant",
+      level: "Advanced 10",
+      percentage: "53%",
+    },
+    'ability 11': {
+      ability: "Walking ➝ Unstoppable",
+      level: "Advanced 10",
+      percentage: "4%",
+    },
+    'ability 12': {
+      ability: "Wind Magic ➝ Elementalist",
+      level: "Advanced 9",
+      percentage: "74%",
+    },
   },
 
   {
@@ -636,7 +1059,69 @@ var chapterJson = [
     intelligence: "29.44",
     magic: "32.17",
     charisma: "24.33",
-    luck: "24.26"
+    luck: "24.26",
+
+
+    'ability 1': {
+      ability: "Appraisal ➝ Merchant",
+      level: "Advanced 10",
+      percentage: "65%",
+    },
+    'ability 2': {
+      ability: "Athletic ➝ Unstoppable",
+      level: "Advanced 10",
+      percentage: "10%",
+    },
+    'ability 3': {
+      ability: "Bluff ➝ Obscured",
+      level: "Advanced 8",
+      percentage: "99%",
+    },
+    'ability 4': {
+      ability: `Diplomacy ➝ Merchant`,
+      level: "Advanced 10",
+      percentage: "65%",
+    },
+    'ability 5': {
+      ability: "Healing Magic",
+      level: "Advanced 4",
+      percentage: "56%",
+    },
+    'ability 6': {
+      ability: "Insight",
+      level: "Advanced 4",
+      percentage: "96%",
+    },
+    'ability 7': {
+      ability: "Mathematics ➝ Merchant",
+      level: "Advanced 10",
+      percentage: "65%",
+    },
+    'ability 8': {
+      ability: "Navigation",
+      level: "Intermediate 10",
+      percentage: "28%",
+    },
+    'ability 9': {
+      ability: "Perception",
+      level: "Advanced 4",
+      percentage: "82%",
+    },
+    'ability 10': {
+      ability: "Sense Motive ➝ Merchant",
+      level: "Advanced 10",
+      percentage: "65%",
+    },
+    'ability 11': {
+      ability: "Walking ➝ Unstoppable",
+      level: "Advanced 10",
+      percentage: "10%",
+    },
+    'ability 12': {
+      ability: "Wind Magic ➝ Elementalist",
+      level: "Advanced 9",
+      percentage: "93%",
+    },
   },
 
 ];
@@ -683,41 +1168,53 @@ select.onchange = function()
             document.querySelector("#charisma").textContent = chapterJson[i]['charisma'];
             document.querySelector("#luck").textContent = chapterJson[i]['luck'];
 
-            document.querySelector('#appraisalL').textContent = chapterJson[i]["appraisal"].level;
-            document.querySelector('#appraisalP').textContent = chapterJson[i]["appraisal"].percentage;
+            document.querySelector('#ability1').textContent = chapterJson[i]["ability 1"].ability;
+            document.querySelector('#appraisalL').textContent = chapterJson[i]["ability 1"].level;
+            document.querySelector('#appraisalP').textContent = chapterJson[i]["ability 1"].percentage;
 
-            document.querySelector('#athleticsL').textContent = chapterJson[i]["athletics"].level;
-            document.querySelector('#athleticsP').textContent = chapterJson[i]['athletics'].percentage;
+            document.querySelector('#ability2').textContent = chapterJson[i]['ability 2'].ability;
+            document.querySelector('#athleticsL').textContent = chapterJson[i]["ability 2"].level;
+            document.querySelector('#athleticsP').textContent = chapterJson[i]['ability 2'].percentage;
 
-            document.querySelector('#bluffL').textContent = chapterJson[i]['bluff'].level;
-            document.querySelector('#bluffP').textContent = chapterJson[i]['bluff'].percentage;
+            document.querySelector('#ability3').textContent = chapterJson[i]['ability 3'].ability;
+            document.querySelector('#bluffL').textContent = chapterJson[i]['ability 3'].level;
+            document.querySelector('#bluffP').textContent = chapterJson[i]['ability 3'].percentage;
 
-            document.querySelector('#diplomacyL').textContent = chapterJson[i]['diplomacy'].level;
-            document.querySelector('#diplomacyP').textContent = chapterJson[i]['diplomacy'].percentage;
+            document.querySelector('#ability4').textContent = chapterJson[i]['ability 4'].ability;
+            document.querySelector('#diplomacyL').textContent = chapterJson[i]['ability 4'].level;
+            document.querySelector('#diplomacyP').textContent = chapterJson[i]['ability 4'].percentage;
 
-            document.querySelector('#healL').textContent = chapterJson[i]['heal'].level;
-            document.querySelector('#healP').textContent = chapterJson[i]['heal'].percentage;
+            document.querySelector('#ability5').textContent = chapterJson[i]['ability 5'].ability;
+            document.querySelector('#healL').textContent = chapterJson[i]['ability 5'].level;
+            document.querySelector('#healP').textContent = chapterJson[i]['ability 5'].percentage;
 
-            document.querySelector('#insightL').textContent = chapterJson[i]['insight'].level;
-            document.querySelector('#insightP').textContent = chapterJson[i]['insight'].percentage;
+            document.querySelector('#ability6').textContent = chapterJson[i]['ability 6'].ability;
+            document.querySelector('#insightL').textContent = chapterJson[i]['ability 6'].level;
+            document.querySelector('#insightP').textContent = chapterJson[i]['ability 6'].percentage;
 
-            document.querySelector('#mathL').textContent = chapterJson[i]['math'].level;
-            document.querySelector('#mathP').textContent = chapterJson[i]['math'].percentage;
+            document.querySelector('#ability7').textContent = chapterJson[i]['ability 7'].ability;
+            document.querySelector('#mathL').textContent = chapterJson[i]['ability 7'].level;
+            document.querySelector('#mathP').textContent = chapterJson[i]['ability 7'].percentage;
 
-            document.querySelector('#navL').textContent = chapterJson[i]['nav'].level;
-            document.querySelector('#navP').textContent = chapterJson[i]['nav'].percentage;
+            document.querySelector('#ability8').textContent = chapterJson[i]['ability 8'].ability;
+            document.querySelector('#navL').textContent = chapterJson[i]['ability 8'].level;
+            document.querySelector('#navP').textContent = chapterJson[i]['ability 8'].percentage;
 
-            document.querySelector('#perceptL').textContent = chapterJson[i]['percept'].level;
-            document.querySelector('#perceptP').textContent = chapterJson[i]['percept'].percentage;
+            document.querySelector('#ability9').textContent = chapterJson[i]['ability 9'].ability;
+            document.querySelector('#perceptL').textContent = chapterJson[i]['ability 9'].level;
+            document.querySelector('#perceptP').textContent = chapterJson[i]['ability 9'].percentage;
 
-            document.querySelector('#senseL').textContent = chapterJson[i]['sense'].level;
-            document.querySelector('#senseP').textContent = chapterJson[i]['sense'].percentage;
+            document.querySelector('#ability10').textContent = chapterJson[i]['ability 10'].ability;
+            document.querySelector('#senseL').textContent = chapterJson[i]['ability 10'].level;
+            document.querySelector('#senseP').textContent = chapterJson[i]['ability 10'].percentage;
 
-            document.querySelector('#walkL').textContent = chapterJson[i]['walk'].level;
-            document.querySelector('#walkP').textContent = chapterJson[i]['walk'].percentage;
+            document.querySelector('#ability11').textContent = chapterJson[i]['ability 11'].ability;
+            document.querySelector('#walkL').textContent = chapterJson[i]['ability 11'].level;
+            document.querySelector('#walkP').textContent = chapterJson[i]['ability 11'].percentage;
 
-            document.querySelector('#windL').textContent = chapterJson[i]['wind'].level;
-            document.querySelector('#windP').textContent = chapterJson[i]['wind'].percentage;
+            document.querySelector('#ability12').textContent = chapterJson[i]['ability 12'].ability;
+            document.querySelector('#windL').textContent = chapterJson[i]['ability 12'].level;
+            document.querySelector('#windP').textContent = chapterJson[i]['ability 12'].percentage;
         }
         if(this.value == '')
         {
