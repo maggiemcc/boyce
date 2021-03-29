@@ -10,15 +10,15 @@ html, body {
 }
 
 .thankyou {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     margin: auto;
     max-width: 1200px;
 }
 
-.thanks {
+/* .thanks {
     grid-column: 2 / span 2;
-}
+} */
 
 
 
@@ -458,15 +458,17 @@ i {
 
 
 
+/* FAN ART PAGE */
 .thankyou {
-    width: 95%;
+    /* width: 95%; */
+    padding: 0% 6%;
+    margin: auto;
 }
 .thanks {
-    grid-column: 1 / span 4;
+    /* grid-column: 1 / span 4; */
+    width: 100%;
 }
 
-
-/* Gallery */
 .gallery {
     padding: 1%;
     /* border: blue 2px solid; */
@@ -814,14 +816,12 @@ i {
 
 
 
-
+/* FAN ART PAGE */
 .thankyou {
-    width: 95%;
+    width: 620px;
+    margin: auto;
 }
-.thanks {
-    grid-column: 1 / span 4;
 
-}
 
 /* Gallery */
 .gallery {
@@ -876,13 +876,14 @@ img{
     top: 25%;
 }
 
-
+/* FAN ART PAGE */
 .thankyou {
-    width: 95%;
+	width: 800px;
+    margin: auto;
 }
-.thanks {
+/* .thanks {
     grid-column: 2 / span 2;
-}
+} */
 
 /* Gallery */
 .gallery {
@@ -1024,13 +1025,13 @@ img{
 }
 
 
-
+/* FAN ART PAGE */
 .thankyou {
-    width: 95%;
+	width: 800px;
 }
-.thanks {
+/* .thanks {
     grid-column: 2 / span 2;
-}
+} */
 
 /* Gallery */
 .gallery {
@@ -1076,6 +1077,7 @@ img{
 
 
 @media screen and (min-width: 1600px) {
+    /* @media screen and (max-width: 1650px) { */
 
 /* .hero-text {
     font-size: 5rem;
