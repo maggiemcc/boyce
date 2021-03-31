@@ -313,6 +313,10 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
 }
 
 
+
+
+
+
 .mobile-hero-img {
     width: 100%;
 }
@@ -330,11 +334,32 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
     font-weight: 400;
 }
 
-.hero-text {
+/* .hero-text {
     position: absolute;
     top: 25%;
     right: 8%;
+} */
+
+
+.hero-text {
+    position: absolute;
+    /* color: white; */
+    /* font-family: 'Cinzel', serif; */
+    text-align: center;
+    width: 200px;
+    margin: 0;
+    line-height: 1.5rem;
+    top: 30%;
+    left: 0%;
 }
+
+
+.margin-0 {margin: 10px;}
+
+
+
+
+
 
 .buy-btn {
     padding: .25rem .5rem;
@@ -1118,9 +1143,11 @@ img{
     position: absolute;
     color: white;
     font-family: 'Cinzel', serif;
-    font-size: 4rem;
-    top: 48%;
-    left: 7%;
+    font-size: 3rem;
+    line-height: 3.2rem;
+    top: 38%;
+    top: 35%;
+    left: 15%;
     text-align: center;
     width: 500px;
 }
@@ -1195,17 +1222,24 @@ img{
     display: none;
 }
 
-.hero-img-div {
+/* .hero-img-div {
     background-image: url("../gradient.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
-.hero-img-large {
+/* .hero-img-large {
     display: block;
     width: 100%;
     max-width: 1300px;
     margin: auto;
+} */
+.hero-img {
+    display: block;
+    width: 100%;
+    /* max-width: 1300px; */
+    margin: auto;
+    border:3px solid red;
 }
 
 
@@ -1213,11 +1247,13 @@ img{
     position: absolute;
     color: white;
     font-family: 'Cinzel', serif;
-    font-size: 4rem;
-    top: 50%;
-    left: 7%;
     text-align: center;
-    width: 500px;
+    width: 600px;
+
+    font-size: 4rem;
+    line-height: 4.2rem;
+    top: 44%;
+    left: 15%;
 }
 
 }
