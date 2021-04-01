@@ -43,15 +43,16 @@ html, body {
     transition: 0.3s;
     width: 95%;
     background-color: black;
-    border-radius: 3% 3%;
+    border-radius: 2% 2%;
   }
   
-  .card:hover {
+  /* .card:hover {
     box-shadow: 0 8px 10px 0 rgba(0,0,0,0.5);
-  }
+  } */
+
 
   .card img {
-      border-bottom: 3px solid white;
+      border-bottom: 2px solid white;
   }
   
   .container {
@@ -77,11 +78,15 @@ html, body {
       border-radius: 5px;
       font-size: 1rem;
       color: black;
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: 500;
+   
   }
 
   .card .container button:hover {
-    background-color: white;
+    background-color: rgb(233, 233, 233);
     color: red;
+    color: black;
     cursor: pointer;
 }
 
@@ -167,22 +172,22 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
 
 
 
-.moreStats {
+/* .moreStats {
     margin: 1rem auto;
 }
 .moreStats h2 {
     margin: 0;
-}
+} */
 
-.abilities{
+/* .abilities{
     border-collapse: collapse;
     width: 610px;
     margin: auto;
-  }
+  } */
 
 
   
-  .abilities .percent, .abilities .level {
+  /* .abilities .percent, .abilities .level {
       text-align: right;
   }
 
@@ -210,7 +215,36 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
   }
 
  
-  .abilities tr {width: 233px;}
+  .abilities tr {width: 233px;} */
+
+
+
+
+.mobileStats {color: black; text-align: center; width: 610px; height: 100%; padding: 0; margin: auto; margin-bottom: 5rem;}
+
+.mobileStats .abilities {color: black; width: 100%; padding: 0; margin: auto; text-align: left; border: none;}
+.mobileStats .abilities {color: black; width: 100%; padding: 0; margin: 0; text-align: left; outline: 2px solid black;}
+/* .mobileStats .abilities #abilityType {background-color: white; color: black; text-align: left;}
+.mobileStats .abilities #abilityInfo { background-color: #0A4B85; color: white; text-align: left; display: grid; grid-template-columns: 1fr;} */
+.mobileStats .abilities #abilityType { text-align: left;}
+.mobileStats .abilities #abilityInfo { text-align: left; display: grid; grid-template-columns: 1fr;}
+
+/* #abilityType:nth-of-type(odd) {background-color: #0A4B85; color: white;} */
+#abilityType {background-color: #0A4B85; color: white; border-bottom: 2px solid white;}
+#abilityType:last-child {border-bottom: none;}
+#abilityType:hover {background-color: #e7e7e7; color: black;}
+
+
+/* .mobileStats .abilities .level {text-align: left;} */
+.mobileStats .abilities .level h4, .mobileStats .abilities .percent h4 {display: inline-block; font-weight: 500; margin: 0;}
+/* .mobileStats .abilities .percent {text-align: left;} */
+.mobileStats .abilities .abilityN h4 {display: inline-block; margin: 0; text-transform: uppercase;}
+
+.mobileStats .abilities .abilityN, .mobileStats .abilities #abilityInfo {padding: 3% 5%; margin: auto 0;}
+/* .mobileStats .abilities {background-color: #0A4B85; padding: 1% 0;} */
+
+.mobileStats .abilities #abilityType {display: grid; grid-template-columns: 65% 35%;}
+
 
 
   
@@ -414,6 +448,8 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
     border-radius: 5px;
     font-size: 1rem;
     color: white;
+    font-family: 'Nunito Sans', sans-serif;
+
 }
 
 .buy-btn:hover {
@@ -627,6 +663,7 @@ img{
 
 
 
+
 .cards {
     width: 90%;
     margin: auto;
@@ -640,9 +677,65 @@ img{
 .card {margin: auto; margin-bottom: 20px;}
 
 
+
+.character {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-column-gap: 10px; */
+    /* grid-row-gap: 10px; */
+    /* margin: .5rem auto .8rem auto; */
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    padding: 0 5%;
 }
 
+.charImg {grid-area: 1;}
+#chapterInfo {
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 12% 42% 42%;
+    /* height: 290px; */
+    height: 100%;
+    padding: 3%;
+    grid-area:3;
+}
 
+.charName {
+    grid-area: 2;
+}
+
+/* .mobileStats {color: black; text-align: center; width: 95%; height: 100%; margin: auto; margin-bottom: 5rem;} */
+.mobileStats {color: black; text-align: center; width: 90%; margin-top: 4rem;}
+.mobileStats .abilities #abilityType {display: grid; grid-template-columns: 1fr;}
+
+.mobileStats .abilities {color: black; width: 100%; padding: 0; margin: auto; text-align: left; border: none;}
+.mobileStats .abilities {color: black; width: 100%; padding: 0; margin: 0; text-align: left; outline: 2px solid black;}
+/* .mobileStats .abilities #abilityType {background-color: white; color: black; text-align: left;}
+.mobileStats .abilities #abilityInfo { background-color: #0A4B85; color: white; text-align: left; display: grid; grid-template-columns: 1fr;} */
+.mobileStats .abilities #abilityType { text-align: center;}
+.mobileStats .abilities #abilityInfo { text-align: center; display: block}
+
+/* #abilityType:nth-of-type(odd) {background-color: #0A4B85; color: white;} */
+#abilityType {background-color: #0A4B85; color: white; border-bottom: 2px solid white;}
+#abilityType:last-child {border-bottom: none;}
+#abilityType:hover {background-color: #e9e9e9; color: black;}
+
+
+.mobileStats .abilities .level {text-align: center;}
+.mobileStats .abilities .level h4, .mobileStats .abilities .percent h4 {display: inline-block; font-weight: 500; margin: 0;}
+.mobileStats .abilities .percent {text-align: center;}
+.mobileStats .abilities .abilityN h4 {display: inline-block; margin: 0; text-transform: uppercase;}
+
+.mobileStats .abilities .abilityN, .mobileStats .abilities #abilityInfo {padding: 2%;}
+.mobileStats .abilities .abilityN {padding-bottom: 0%;}
+
+/* .mobileStats .abilityN, .mobileStats .level, .mobileStats .percent {text-align: center; width: 150px; margin: auto;} */
+/* .mobileStats .abilities {background-color: #0A4B85; padding: 1% 0;} */
+/* .mobileStats .abilities {background-color: #0A4B85; padding: 2% 0;} */
+
+
+
+}
 
 
 
@@ -964,6 +1057,10 @@ img{
     display: none;
 }
 
+.charac
+
+.mobileStats {margin-top: 2rem;}
+
 }
 
 
@@ -1035,6 +1132,44 @@ img{
 .hero-img-large {
     display: none;
 }
+
+
+
+
+
+
+
+
+
+.mobileStats {color: black; text-align: center; width: 610px; height: 100%; padding: 0; margin: auto; margin-bottom: 5rem; margin-top: 3rem; }
+
+.mobileStats .abilities {color: black; width: 100%; padding: 0; margin: auto; text-align: left; border: none;}
+.mobileStats .abilities {color: black; width: 100%; padding: 0; margin: 0; text-align: left; outline: 2px solid black;}
+/* .mobileStats .abilities #abilityType {background-color: white; color: black; text-align: left;}
+.mobileStats .abilities #abilityInfo { background-color: #0A4B85; color: white; text-align: left; display: grid; grid-template-columns: 1fr;} */
+.mobileStats .abilities #abilityType { text-align: left;}
+.mobileStats .abilities #abilityInfo { text-align: left; display: grid; grid-template-columns: 1fr 1fr;}
+
+/* #abilityType:nth-of-type(odd) {background-color: #0A4B85; color: white;} */
+#abilityType {background-color: #0A4B85; color: white; border-bottom: 2px solid white; }
+#abilityType:last-child {border-bottom: none;}
+#abilityType:hover {background-color: #eeeeee; color: black;}
+
+
+/* .mobileStats .abilities .level {text-align: left;} */
+.mobileStats .abilities .level h4, .mobileStats .abilities .percent h4 {display: inline-block; margin: 0;}
+/* .mobileStats .abilities .percent {text-align: left;} */
+.mobileStats .abilities .abilityN h4 {display: inline-block; margin: 0; text-transform: capitalize;}
+
+.mobileStats .abilities .abilityN, .mobileStats .abilities #abilityInfo {padding: 3% 5%; margin: auto 0;}
+/* .mobileStats .abilities {background-color: #0A4B85; padding: 1% 0;} */
+
+.mobileStats .abilities #abilityType {display: grid; grid-template-columns: 50% 50%;}
+.mobileStats .abilities #abilityType h4 {display: block; font-weight: 500;}
+.mobileStats .abilities #abilityInfo h4 {display: block; font-weight: 500;}
+
+
+
 }
 
 
@@ -1223,6 +1358,7 @@ img{
     width: 500px;
 }
 
+
 }
 /* } */
 
@@ -1330,14 +1466,6 @@ img{
 /* } */
 
 
-
-
-
-
-
-
-
-
-
+.mobileStats h2 { font-weight: 500;}
 
 
